@@ -1,0 +1,802 @@
+
+body{
+    font-family: 'b mitra';
+    /* direction: rtl; */
+}
+
+
+
+.my-header {
+    background-color: rgba(250, 251, 252, 0.877);
+    border-bottom-right-radius: 100px;
+    box-sizing: border-box;
+    /* width:100vw; */
+    width:100%;
+    height:auto;
+    background-image: url(https://snappfood.ir/static/images/hero-image.png);
+    background-repeat: no-repeat;
+    background-position:bottom left ;
+    background-clip: border-box;
+    padding: 40px;
+     }
+
+
+
+.membership {
+    background-color: deeppink;
+    color:white;
+    font-size: 15px;
+    display:inline-block;
+    box-sizing: border-box;
+    padding:10px;
+    border-radius: 10px;
+    }
+
+
+.title2{
+    color:deeppink; display: block;
+    font-size: 40px;
+    font-weight: 600;
+   
+    }
+
+
+.register {
+    margin-left: 20px;
+    }
+
+
+#img1 {
+    width:35px;
+   height:30px;
+   vertical-align:middle;
+   }
+
+
+.title1 {
+    float: right;
+    }
+
+
+
+.header-content {
+    
+     padding-top: 150px;text-align: right;
+    }
+
+
+.pizza {
+    color: deeppink;
+    padding-right: 5px;
+    /* display: inline-block;
+    width: 10vw;
+    position: relative;
+    animation-name: pizza;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+    }
+
+/* 
+@keyframes pizza {
+    0% {
+        left:0vw ;
+    }
+
+    20% {
+        left: 2vw;
+    }
+
+    40% {
+        left: 4vw;
+    }
+
+    60% {
+        left: 6vw;
+    }
+
+    80% {
+        left: 8vw;
+    }
+
+    100% {
+        left: 10vw;
+    }
+    
+}
+ */
+
+
+.order {
+    font-size: 50px;
+    font-weight: 600;
+    }
+
+
+
+.order-bread {
+    color: gray;
+    font-size: 22px;
+    display: block;
+     }
+
+
+
+#img2 {
+    position: absolute;
+    top:20px;
+    right:1%;
+    }
+
+
+#img3 {
+    position: absolute;
+    top:14px;
+    right:34.8%;
+    border-radius: 50%;
+    }
+
+
+
+header input{
+    border: 1px solid rgba(196, 194, 194, 0.562);
+    border-radius: 40px;
+    width: 35%;
+    height: 46px;
+    padding-right:40px;
+    font-family: b mitra;
+    font-size: 22px;
+    text-align: right;
+    float: right;
+    margin-top: 10px;;
+}
+
+
+header input:focus{
+    outline: none;
+    border: 3px solid  dimgrey;
+
+}
+
+
+.container-img{
+        width: 6%;
+        height: auto;
+        display:inline-block;
+        text-align: center;
+        padding-right:3.7%;
+        position: relative;
+        animation-name: nav;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+         }
+
+
+@keyframes nav {
+
+    0% {
+        opacity: 0.5;
+    }
+
+    
+    
+
+    50% {
+        opacity: 0.8;
+    }
+
+
+
+
+    
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+
+
+
+.my-nav {
+    background-color:rgb(238, 241, 248);
+    opacity: 0.89;
+    box-sizing: border-box;
+    display: inline-block;
+    width:98%;
+    height:auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 40px;
+    padding-left: 6%;
+    }
+ 
+#nav-content {
+         width:70%;
+         height:auto;
+        }
+
+
+.text-nav {
+    display: block;
+    }
+
+
+
+
+.my-main {
+    width:100%px;
+   height:auto;
+   margin-top: 80px;
+   text-align: right;
+   }
+
+
+.grouping{
+   font-weight: 600 ;
+   }
+
+span.common:hover {
+    border: 4px solid rgb(200, 218, 212);
+    border-radius: 15px;
+}
+
+
+
+.common {
+     background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: 200px 100px;
+    display: inline-block;
+    width: 180PX;
+    height: 100PX;
+    border: 4px solid white;
+    border-radius: 15px;
+    outline: 1px solid rgb(235, 233, 233) ;
+    margin: 28px;
+    }
+
+.iranian {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_irani_1.jpg);
+    }
+  
+
+.fast-food {
+    background-image:url(https://cdn.snappfood.ir/uploads/images/tags/website_image_fastfood_1.jpg);
+    }
+   
+
+
+.barbecue {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_kebab_1.jpg);
+    }
+  
+
+
+.pizza2 {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_pizza_1.jpg);
+    }
+  
+
+.burger {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_burger_1.jpg);
+    }
+  
+
+
+.sandwich {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_sandwich_1.jpg);
+    }   
+
+   
+.fried {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_sokhari_1.jpg);
+    }
+  
+
+.pasta {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_italy_1.jpg);
+    }
+   
+
+.salad {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_salad_1.jpg);
+    }
+   
+
+.marine {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_seafood_1.jpg);
+    }
+  
+   
+
+.international {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_asian_1.jpg);
+    }
+   
+
+
+.gilani {
+    background-image: url(https://cdn.snappfood.ir/uploads/images/tags/website_image_gilani_1.jpg);
+    }
+  
+
+.label {
+    background-color:white;
+    color: dimgrey;
+    font-weight: 600;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    display: inline-block;
+    margin-top: 70px;
+    width: 42%;
+    padding-right: 15px;
+     }
+
+
+
+.div-content {
+    background-color: rgba(227, 228, 228, 0.877);
+    border-bottom-right-radius: 100px;
+    width: 100%;
+    height: 600px;
+    text-align: right ;
+    box-sizing: border-box;
+    margin-top: 150px;
+    position: relative;
+    padding: 50px;
+    }
+
+
+#big-picture {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    left:40px;
+    top:-180px;
+    }
+
+
+
+.application {
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+    font-weight: 600;
+    display:block
+    ;}
+
+
+.text {
+    font-size: 23px;
+    font-weight: 100;
+    color: dimgray;
+    display: inline-block;
+    width: 550px;
+    height: 100px;
+    margin-top: 10px;
+    }
+
+
+
+
+.form-text {
+    font-weight: 600;
+    font-size: 15px;
+    color:rgb(97, 97, 97);
+    display: block;
+    margin-top: 40px;
+   }
+
+
+.form {
+    width: 300PX;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 10px; 
+    }
+
+
+#img-form{
+    position: absolute;
+    bottom: 267px;
+    right:242px
+    }
+
+
+.photos {
+    margin-top: 40px;
+    }
+
+#black-photo {
+    margin-left: 10px;
+    }
+
+
+.work {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(243, 244, 245, 0.877);
+    border-radius: 30px;
+    margin-top: 150px;
+    text-align: right  ;
+    padding: 60px;
+    box-sizing: border-box;
+    position: relative;
+    }
+
+
+
+#store{
+    position: absolute;
+    left: 75px;
+    top:-100px;
+}
+
+.headline {
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+    font-weight: 600;
+    }
+
+
+.sale {
+    font-size: 23px;
+    font-weight: 100;
+    color: dimgray;
+    margin-top: 20px;
+    }
+
+
+.record {
+    background-color: deeppink;
+    color:white;
+    font-weight: 600;
+    margin-top: 30px;
+    display:inline-block;
+    width:180px;
+    height:45px;
+    padding-right: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url(22.png);
+    background-repeat: no-repeat;
+    background-position: 150px 13px;
+    }
+
+
+.my-footer {
+    height: 730px;
+    background-image: url(https://snappfood.ir/static/images/senf.png);
+    background-repeat: no-repeat;
+    background-position: 40px 450px;
+    background-color:rgb(248, 249, 250);
+    text-align: right ;
+    }
+
+
+.cities-of-iran {
+    height: 340px;
+    background-color: white;
+    padding: 40px;
+    }
+
+
+.cities{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(95, 94, 94);
+    }
+
+
+
+
+.names {
+    width: 300px;
+    color: rgb(180, 178, 178);
+    font-size: 12px;
+    font-weight: 600;
+    }
+
+
+.similar {
+    display: inline-block;
+    vertical-align: top;
+    }
+
+
+.left-list {
+    margin-right:  100px;
+    margin-top: 40px;
+    }
+
+
+.right-list {
+    width: 200px;
+    margin-right:  100px;
+    margin-top: 40px;
+    }
+
+
+.experience {
+    width: 270px;
+    margin-right:  30px;
+    margin-top: 40px;
+     }
+
+
+.snapp-food {
+    margin-right:  50px;
+    margin-top: 40px;
+    text-align: left;
+    }
+
+
+
+.items {
+    list-style-type: none;
+    color:rgb(121, 119, 119);
+    font-size: 13px;
+    font-weight: 600;
+    }
+
+
+
+
+.food {
+    font-size: 30px;
+    font-weight: 100;
+    color: deeppink;
+    display: block;
+    }
+
+
+.zood-food {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(121, 119, 119);
+    margin-bottom: 20px;} 
+
+
+
+
+.same {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(216, 211, 211);
+    border-radius: 50%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 9px 9px;
+    margin-left: 3px;
+    }
+
+.photo1 {
+    background-image: url(s1.png);
+    }
+
+
+.photo2 {
+    background-image: url(s2.png);
+    }
+
+
+.photo3 {
+    background-image: url(s3.png);
+    }
+
+
+.photo4 {
+    background-image: url(s4.png);
+    }
+
+
+
+.photo5 {
+    background-image: url(s5.png);
+    }
+
+
+.snapp {
+     color:deeppink;
+    font-size: 30px;
+    font-weight: 600;
+    }
+
+
+
+
+
+
+
+/* @media not print {
+
+.print-state{
+    color:red
+}
+} */
+
+
+/* @media only print {
+
+
+} */
+
+
+
+/* @media  print {
+
+.header{
+    display: none;
+}
+
+
+
+.z{
+    font-size: 100px;
+    color:red;;
+}
+
+
+.print-state{
+    color:green;
+}
+
+
+
+} */
+
+
+
+/* @media  print  and () {
+    
+} */
+
+
+
+/* @media screen {
+    
+
+}
+
+@media only screen {
+  
+    
+}
+
+
+@media not screen {
+  
+    
+} */
+
+
+/* 
+@media screen  and   (max-width:700px) {
+    
+    .o{
+        font-size: 5px;
+    }
+
+
+
+}
+
+
+@media screen  and   (width:700px) {
+    
+.o{
+    font-size: 12px;
+}
+
+
+
+}
+
+
+
+@media screen  and   (min-width:700px) {
+    
+    .o{
+        font-size: 50px;
+    }
+
+
+    } */
+
+
+
+
+
+
+
+
+
+
+    /* @media screen  and   (max-width:200px) {
+    
+        .o{
+            font-size: 5px;
+        }
+    
+    }
+
+
+
+
+    
+
+    @media screen  and   (min-width:200px) and (max-width:400px) {
+    
+        .o{
+            font-size: 25px;
+        }
+    
+    } */
+
+
+
+    
+    
+
+    @media only screen  and   (min-width:400px) and (max-width:800px) {
+    
+        .o{
+            font-size: 40px;
+        }
+    
+    }
+
+
+
+    
+
+    @media screen  and   (min-width:800px){
+    
+        .o{
+            font-size: 70px;
+        }
+    
+    }
+
+
+
+
+@media  only screen and  (min-width:800px) {
+
+
+    .TC{ color: brown;
+        font-size: 40px;}
+    
+}
+
+
+
+@media only screen and (max-width:800px) and (min-width:700px) {
+
+
+    .TC{color:blue;
+    font-size: 30px;}
+    
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+
+
+     .TC{color: chartreuse;
+        font-size: 20px;}
+
+
+}
